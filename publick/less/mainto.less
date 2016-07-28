@@ -151,19 +151,44 @@ a:hover {background: @colfirm2; color: #fff; text-decoration: none;}
 }    
 }
 
-.tov1{height: 735px; float: left; width: 100%; background: #ddf8fe;
+.tov1{height: 755px; float: left; width: 100%; background: #ddf8fe;
 .content {height: 100%; margin-top: 34px; text-align: center; width: 1200px;}
     h4 {color: #333333; display: inline-block; padding: 0 22px; background: #ddf8fe; z-index: 999; position: relative;}    
     span.line {position: absolute; left: 15px; display: block; width:1180px; ; height: 2px; background: @colfirm2; z-index: 9; top:8px;}
     .tv-block {float: left; width: 100%; margin-top: 15px;
-        .on-t { height: 550px; background: #fff;   
+        .on-t { position: relative; height: 555px; background: #fff;  margin-top: 15px; 
          border-left: solid 15px #ddf8fe; border-right: solid 15px  #ddf8fe;
-.on{float: left; width: 100%; height: 100%; padding: 10px; box-shadow: 0px 1px 5px 0px rgba(0, 1, 1, 0.15);
+.on{float: left; width: 100%; height: 100%; box-shadow: 0px 1px 5px 0px rgba(0, 1, 1, 0.15);
      } 
-            
-h5  {text-transform: uppercase; margin-top: 25px;}
-img{margin: 0px;}} .on-t:first-child{margin-left: 0px;}
+            article {float: left; width: 100%; padding: 0 0px;}          
+h5  {text-transform: uppercase; margin-top: 25px; margin-bottom: 40px;}
+img{margin: 0px 0;}} .on-t:first-child{margin-left: 0px;}
+        .slick-list {height: 600px;}
+.t-line {float:left; display: block; width: 100%; padding: 6px 25px; border-top: solid 1px #d1d5d2; font-size: 13px; color: #414141; text-align: left;
+span {float: right;}}
+        
+.t-line-m {float:left; display: block; height: 60px; width: 100%; padding: 12px 25px;  font-size: 18px; color: #414141; text-align: left; font-weight: 700;
+background: #6fd5f9;
+span {float: right;}} 
+
+.tob-but {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(182, 182, 182);
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(255,255,255) 100%);
+  position: absolute;
+  width: 130px;
+  height: 42px;
+  left:50%;
+  bottom: -20px;
+  margin-left: -65px;
+    color: #1f99c8; font-weight: 700; font-size: 14px; padding: 10px;
     
+}
+
     }
 
     .slider {
@@ -177,6 +202,8 @@ float: left; width: 100%; height: 100%;
     .slick-slide img {
       width: 100%;
     }
+    
+
 
     .slick-prev:before,
     .slick-next:before {
@@ -215,13 +242,16 @@ color: transparent;
     
     }
 
-.slick-dots  {margin-top: 40px; width: 100%; text-align: center;
-    li {display: inline-block;width: 12px; height: 12px; border: solid 2px #b6b6b6; border-radius: 12px; background: #fff; margin: 0 8px;
+.slick-dots  {margin-top: 10px; width: 100%; text-align: center;
+    li {display: inline-block;width: 12px; height: 12px; border: solid 2px #b6b6b6; border-radius: 12px; background: #fff; margin: 0 8px; cursor: pointer;
         button{font-size: 0px;}
-    }    
+    } 
+li.slick-active {background: #b6b6b6;}  
 }   
-    
-    
+  
+.but-bl {position: absolute; display: block; width: 100%; left: 0px; bottom: -20px; text-align: center;
+.button {float: none; position: relative; margin: 0 auto;}
+    }      
 }
 
 
