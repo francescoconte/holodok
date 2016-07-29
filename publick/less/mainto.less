@@ -22,7 +22,7 @@ padding: 20px 12px; text-align: center;}
 
 .button:hover {opacity: 0.9;}
 
-header {position: fixed; width: 100%; height: 120px; z-index: 999999;
+header {position: fixed; width: 100%; height: 120px; z-index: 999999;top:0px; left:0px;
 nav {background: @colfirm2; float: left; width: 100%; height: 55px; border-bottom: solid 2px #3199d2;
 .content {text-align: center; height: 100%;
 li {float: left; display: inline-table; height: 100%; margin: 0 48px;
@@ -154,15 +154,16 @@ a:hover {background: @colfirm2; color: #fff; text-decoration: none;}
 .tov1{height: 755px; float: left; width: 100%; background: #ddf8fe;
 .content {height: 100%; margin-top: 34px; text-align: center; width: 1200px;}
     h4 {color: #333333; display: inline-block; padding: 0 22px; background: #ddf8fe; z-index: 999; position: relative;}    
-    span.line {position: absolute; left: 15px; display: block; width:1180px; ; height: 2px; background: @colfirm2; z-index: 9; top:8px;}
-    .tv-block {float: left; width: 100%; margin-top: 15px;
-        .on-t { position: relative; height: 555px; background: #fff;  margin-top: 15px; 
+    span.line {position: absolute; left: 15px; display: block; width:1170px; ; height: 2px; background: @colfirm2; z-index: 9; top:8px;}
+    .tv-block {float: left; width: 100%; margin-top: 15px; 
+        .on-t { position: relative; height: 555px; background: #fff;  margin-top: 15px; .m-speed; cursor: pointer;
          border-left: solid 15px #ddf8fe; border-right: solid 15px  #ddf8fe;
 .on{float: left; width: 100%; height: 100%; box-shadow: 0px 1px 5px 0px rgba(0, 1, 1, 0.15);
      } 
             article {float: left; width: 100%; padding: 0 0px;}          
 h5  {text-transform: uppercase; margin-top: 25px; margin-bottom: 40px;}
 img{margin: 0px 0;}} .on-t:first-child{margin-left: 0px;}
+        .on-t:hover {margin-top: 10px;}
         .slick-list {height: 600px;}
 .t-line {float:left; display: block; width: 100%; padding: 6px 25px; border-top: solid 1px #d1d5d2; font-size: 13px; color: #414141; text-align: left;
 span {float: right;}}
@@ -191,6 +192,9 @@ span {float: right;}}
 
     }
 
+
+    
+    
     .slider {
 float: left; width: 100%; height: 100%;
     }
@@ -356,5 +360,130 @@ slick-slider {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+
+
+.slider2 {background: #025f93;  float: left; width: 100%; height: 995px;
+    h2 {color: #fff; text-align: center; margin-top: 100px; margin-bottom: 50px;}
+    
+    .sl-info {position: absolute; top:0px; left: 0px; width: 100%; height: 100%;}
+}
+
+
+.contacts {background: #fff;  float: left; width: 100%;
+    h2 {color: @colfirm; text-align: center;margin-top: 80px; margin-bottom: 45px; float: left; width: 100%;}
+    
+.dost { position:relative; float: left; width: 100%; 
+.one-t{ position:relative; float: left; width: 570px; border: solid 1px #d5d5d5; border-radius: 5px; padding: 28px; height: 570px; margin-top:60px;
+.tx-post {float: left; width: 100%; display: table; height: 100px;
+background-position: LEFT CENTER !important;  background-repeat: no-repeat !important; background-size: contain !important;    
+margin: 34px 15px;
+    span {display: table-cell; vertical-align: middle; font-size: 18px; color: #333; font-weight: 600; padding-left: 145px; line-height: 1.5;}
+}    
+    
+}   
+
+.tx-post {float: left; width: 100%; display: table; height: 100px;
+background-position: LEFT CENTER !important;  background-repeat: no-repeat !important; background-size: contain !important;    
+margin: 34px 15px;
+    span {display: table-cell; vertical-align: middle; font-size: 18px; color: #333; font-weight: 600; padding-left: 145px; line-height: 1.5;}
+}    
+
+.two-t  .tx-post  {margin: 14px 15px;}   
+.two-t {position:relative; float: right; width: 570px; border: solid 1px #d5d5d5; border-radius: 5px; padding: 28px; height: 570px; margin-top:60px} 
+    
+.one-t::before {content:'ДОСТАВКА'; position: absolute; position: absolute; display: block; width: 100%;
+    height: 120px; font-size: 45px; color: #333333; font-family: @fonttxt2; top:-60px; left:0px; text-align: center;}    
+    
+
+    
+.two-t::before {content:'ОПЛАТА'; position: absolute; position: absolute; display: block; width: 100%;
+    height: 120px; font-size: 45px; color: #333333; font-family: @fonttxt2; top:-60px; left:0px; text-align: center;}    
+    
+}
+
+.news-block {float: left; width: 100%; height: 200px; margin-bottom: 55px;
+.art{float: left; width: 33%; border-right: solid 1px #cccccc; height: 100%; padding: 0 10px; margin-bottom: 35px;
+li {display: block; margin: 13px 0; float: left; width: 245px;}
+li:first-child{margin-top: 0px; width: 100%;}
+.wt {margin-left: 40px; font-size: 18px;}
+strong {font-weight: 700; display: inline-block; float: right; text-align: left; width: 111px; font-size: 18px;}
+ 
+.mapy { display: block; color: @coltxt; font-size: 18px; font-family: @fonttxt; font-weight: 700; span {font-weight: 400;}
+i.map {display: inline-block; margin-right: 15px; .bgCCC; width: 22px; height: 34px;     margin-bottom: -2px;
+background: url(../img/map.png);
+background: url(../img/map.svg),none; }     
+} 
+
+    
+.times { display: inline-block; float: left; color: @coltxt; font-size: 18px; font-family: @fonttxt; font-weight: 700;
+span {font-weight: 400; margin-right: 32px; display: inline-block; float: left;}
+i.time {display: inline-block; margin-right: 15px; .bgCCC; width: 25px; height: 25px; float: left;     margin-bottom: -2px;
+background: url(../img/time.png);
+background: url(../img/time.svg),none;    }     
+}     
+    
+ 
+.phones {width: 50%; height: 50%; float: left;padding-left: 20px; white-space: nowrap;
+    p {float:left; width: 100%; white-space: normal; padding-top: 15px;}
+    
+.tele { display: block; color: @coltxt; font-size: 18px; font-family: @fonttxt; font-weight: 700; span {font-weight: 400;}
+i.tel {display: inline-block; margin-right: 15px; .bgCCC; width: 22px; height: 34px;     margin-bottom: -2px;
+background: url(../img/tel.png);
+background: url(../img/tel.svg),none;    }
+}
+.wt {padding-top: 15px; margin-left: 36px;}    
+}
+    
+.mails {width: 100%; height: 50%; float: left; padding-left: 20px; 
+ p {float:left; width: 100%; white-space: normal; padding-top: 15px;}
+.maily { display: block; color: @colfirm2; font-size: 16px; font-family: @fonttxt; font-weight: 700; span {font-weight: 400;}
+i.mail {display: inline-block; margin-right: 15px; .bgCCC; width: 22px; height: 34px;     margin-bottom: -2px;
+background: url(../img/map.png);
+background: url(../img/map.svg),none; }     
+} 
+    }    
+
+.art:last-child { border-right: solid 0px;}    
+    }
+    .arts {width: 34%;}    
+    
+}}
+
+.map-s {float: left; width: 100%; height: 500px; position: relative;
+#map {position: absolute; display: block; width: 100%; height: 100%; top:0px; left: 0px;}
+.content {height: 100%; display: table;}  
+    
+.form-b {display: block; float:left; width: 365px; height: 395px; background: #fff; padding: 20px; opacity: 0.9;
+h4 {font-family: @fonttxt; color: @coltxt; text-transform: uppercase;  text-align: center; margin-top: 19px;}    
+input {position: relative; font-weight: 600;float: left;
+padding: 16px 41px; color: @coltxt; background: #fff;}
+
+.inp1 {position: relative; display: inline-block; float: left;  background: #fff;  border-radius: 5px;  width: 100%; margin: 30px 0; border:solid 2px #c1c0c0;}
+.inp1:before{content: ''; position: absolute; display: block; left:14px; top:19px;   width: 13px; height: 17px;  }   
+.inp2:before {background: url(../img/mob.svg); .bgCCC; top:17px;}
+textarea {position: relative; font-weight: 600;float: left; border-radius: 5px; border:solid 2px #c1c0c0; width: 100%; height: 110px; 
+padding: 16px 41px; color: @coltxt; background: #fff; }
+    .but-bl {float: left; width: 100%; margin-top: 20px;}
+}
+
+}
+
+
+footer {position:relative; float: left; width: 100%; background: @colfirm2; height: 90px;
+.content {position: relative; display: table; height: 100%;}
+    
+.one  {float: right; display: inline-table; height: 100%;}  
+.two  {float: left; display: inline-table; height: 100%;}    
+.f-block {display: table-cell; vertical-align: middle; color: #fff; font-family: 'Open Sans', sans-serif;
+.it { display: table-cell; vertical-align: middle;  padding-right: 40px; background: url(../img/it.png); background: url(../img/it.svg),none; background-repeat: no-repeat; background-position: right center; height: 24px; 
+    
+    span {.m-speed; color: #fff; font-family: 'Open Sans', sans-serif;}
+    span:hover{color: #d6b500;}
+} 
+    
+}
+    
 }
 
